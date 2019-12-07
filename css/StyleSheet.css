@@ -1,0 +1,222 @@
+﻿body {
+    background: url("../slike/gitara-pozadina.jpg");
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 0.5em;
+}
+#wrapper{
+    margin: 20px auto;
+}
+#logo{
+    width:1000px;
+    margin: 20px auto;
+
+}
+#sve{
+
+    width:1000px;
+    margin: auto;
+
+}
+#logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav{
+    height: 50px;
+    margin-top:20px;
+    width:1000px;
+}
+#nav ul{
+    list-style: none;
+    padding:0;
+    margin:0 auto;
+    display:table;
+}
+#nav ul li{
+    text-align:center;
+    height:50px;
+    width:150px;
+    display: inline-block;
+    margin:auto;
+    padding-top: 15px;
+}
+#nav ul li a{
+   text-decoration: none;
+   color:white;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+}
+#sadrzaj{
+
+    background-color: rgba(255,255,255,0.8);
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #393939;
+    padding-bottom: 20px;
+    overflow: hidden;
+
+}
+#nav ul li a:link,
+#nav ul li a:visited{
+    color:white;
+}
+#nav ul li a:hover{
+    color:#e9bf87;
+	transition: all .2s ease-in-out;
+}
+#nav ul li[class="active"] a{
+    color:#ffd800;
+}
+#sadrzaj{
+
+    background-color: rgba(255,255,255,0.8);
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #393939;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+#uvod{
+    text-align: center;
+    padding-left:150px;
+    padding-right:150px;
+    padding-top: 20px;
+}
+#uvod h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+#uvod p{
+    font-size: 20px;
+}
+#uvod img{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#istorijat{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footer{
+    width: 960px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align:left;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+#footer a{
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color: #ffffff;
+}
+#footer .footerIcons {
+    float:right;
+	    font-size: 20px;
+}
+#footer .footerIcons a {
+    display: inline-block;
+    padding-left: 20px;
+}
+#footer .footerText {
+    float:left;
+}
+#footer img{
+    padding-bottom: 10px;
+}
+#galerija h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+#elementi{
+    width: 1000px;
+    text-align:center;
+}
+#elementi div{
+    display: inline-block;
+    text-align:center;
+    margin: 50px;
+    border: solid 2px #CC6666;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px #49473f;
+    transition: all .2s ease-in-out;
+
+}
+#elementi div:hover{
+    transform: scale(1.1);
+}
+
+.profil {
+    float:left;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.profil img {
+    float:left;
+    width: 200px;
+    height: auto;
+}
+
+.profilDescription {
+    float:right;
+    width: 470px;
+    text-align: left;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:gray;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
